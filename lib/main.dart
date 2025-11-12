@@ -1,11 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:google_fonts/google_fonts.dart';
+
+// Providers
+import 'providers/project_provider.dart';
+
+// Screens
+import 'screens/splash_screen.dart';
 import 'screens/home_screen.dart';
 import 'screens/my_projects_screen.dart';
 import 'screens/collaborations_screen.dart';
 import 'screens/profile_screen.dart';
-import 'providers/project_provider.dart';
-import 'package:google_fonts/google_fonts.dart';
+
+// Routing
+import 'app_router.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -28,7 +36,9 @@ class XynapseApp extends StatelessWidget {
               primarySwatch: Colors.indigo,
               textTheme: GoogleFonts.poppinsTextTheme(),
             ),
-            home: const RootScreen(),
+            // Route system for easier navigation
+            onGenerateRoute: AppRouter.generateRoute,
+            initialRoute: Routes.splash, // 👈 Start from SplashScreen
           );
         },
       ),
@@ -38,12 +48,14 @@ class XynapseApp extends StatelessWidget {
 
 class RootScreen extends StatefulWidget {
   const RootScreen({super.key});
+
   @override
   State<RootScreen> createState() => _RootScreenState();
 }
 
 class _RootScreenState extends State<RootScreen> {
   int _current = 0;
+
   final _pages = const [
     HomeScreen(),
     MyProjectsScreen(),

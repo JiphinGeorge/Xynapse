@@ -228,7 +228,7 @@ class _AdminDashboardState extends State<AdminDashboard>
       decoration: BoxDecoration(
         color: const Color(0xFF1A1C1E),
         borderRadius: BorderRadius.circular(12),
-        border: Border.all(color: Colors.amberAccent.withOpacity(0.2)),
+        border: Border.all(color: Colors.amberAccent.withValues(alpha:  0.2)),
       ),
       child: ListView(
         padding: const EdgeInsets.all(12),
@@ -281,12 +281,12 @@ class _AdminDashboardState extends State<AdminDashboard>
         end: Alignment.bottomRight,
       ),
       border: Border.all(
-        color: Colors.amberAccent.withOpacity(0.4),
+        color: Colors.amberAccent.withValues(alpha:  0.4),
         width: 1.2,
       ),
       boxShadow: [
         BoxShadow(
-          color: Colors.amberAccent.withOpacity(0.2),
+          color: Colors.amberAccent.withValues(alpha:  0.2),
           blurRadius: 10,
           offset: const Offset(0, 5),
         ),

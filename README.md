@@ -173,7 +173,7 @@ flutter pub get
 flutter run
 
 -----
-🧪 Test Users (Demo Data)
+### **4.🧪 Test Users (Demo Data)**
 Email	Password	Role
 admin@xynapse.com
 	admin123	Admin
@@ -184,14 +184,16 @@ merin@example.com
 ankith@example.com
 	123456	User
 
-📸 Screenshots (Add later)
+### **5.📸 Screenshots (Add later)**
 /assets/screenshots/
 ├── login.png
 ├── home.png
 ├── project_details.png
 ├── admin_dashboard.png
 └── live_metrics.png
-Future Improvements
+
+---
+### **6.Future Improvements**
 
 Real-time collaboration using Firebase
 

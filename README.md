@@ -208,8 +208,7 @@ flutter run
 <p align="center">
   <img src="https://github.com/user-attachments/assets/205050e2-9510-4819-83fd-89cabc4aba81" width="30%">
   <img src="https://github.com/user-attachments/assets/ae2096f9-8942-42a9-befa-2fd9f110edac" width="30%">
-  ![Uploading image.png…]()
-
+ <img src="https://github.com/user-attachments/assets/804c3ca3-9a83-4dd3-9eed-1f8fff30bfe7"  width="30%">
 </p>
 
 ### 💬 Feedback (Admin) & More

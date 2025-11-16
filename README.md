@@ -181,57 +181,40 @@ flutter run
 | merin@example.com  | 123456   | User  |
 | ankith@example.com | 123456   | User  |
 
+## 📸 Screenshots (Gallery View)
 
-## 📸 Screenshots
+### 🚀 Splash, Login & Registration
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ceb2a388-3a95-443b-aaef-c5ad07a69787" width="30%">
+  <img src="https://github.com/user-attachments/assets/f05a4355-8fc9-4d9f-b7ef-874bef9c0be1" width="30%">
+  <img src="https://github.com/user-attachments/assets/6dc9ccc1-21be-4b96-b46a-ff4f78ee6b86" width="30%">
+</p>
 
-### 🚀 Splash Screen
-![Splash Screen]<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/ceb2a388-3a95-443b-aaef-c5ad07a69787" />
+### 🏠 User Home, My Projects & Collaborations
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4e82071b-d152-4123-bf0b-22e62006c1b1" width="30%">
+  <img src="https://github.com/user-attachments/assets/9008d373-2de3-466d-8de7-621fcacaed60" width="30%">
+  <img src="https://github.com/user-attachments/assets/ae2d6eff-f8d2-43da-a3e3-05eec88e3c23" width="30%">
+</p>
 
+### 👤 User Profile, Admin Login & Admin Panel
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1acf8d25-56e6-4666-9215-dadc090dc59e" width="30%">
+  <img src="https://github.com/user-attachments/assets/f2018326-ed4f-4e68-9bd9-9b2d23a8ff5e" width="30%">
+  <img src="https://github.com/user-attachments/assets/6685ef04-ebf4-46d5-a1e5-9ed8d16fdd38" width="30%">
+</p>
 
-### 🔐 Login Screen
-<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/f05a4355-8fc9-4d9f-b7ef-874bef9c0be1" />
+### 📝 Project Details, Metrics & Registered Users
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/205050e2-9510-4819-83fd-89cabc4aba81" width="30%">
+  <img src="https://github.com/user-attachments/assets/ae2096f9-8942-42a9-befa-2fd9f110edac" width="30%">
+  <img src="https://github.com/user-attachments/assets/b6ddcd6c-a249-4330-8555-de89276889d7" width="30%">
+</p>
 
-### 📝 User Registration
-<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/6dc9ccc1-21be-4b96-b46a-ff4f78ee6b86" />
-
-
-### 🏠 User Home
-<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/4e82071b-d152-4123-bf0b-22e62006c1b1" />
-
-
-### 📁 My Projects
-<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/9008d373-2de3-466d-8de7-621fcacaed60" />
-
-
-### 🤝 Collaborations
-<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/ae2d6eff-f8d2-43da-a3e3-05eec88e3c23" />
-
-
-### 👤 User Profile
-<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/1acf8d25-56e6-4666-9215-dadc090dc59e" />
-
-
-### 🛡 Admin Login
-<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/f2018326-ed4f-4e68-9bd9-9b2d23a8ff5e" />
-
-### 🛠 Admin Panel (Dashboard Overview)
-<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/6685ef04-ebf4-46d5-a1e5-9ed8d16fdd38" />
-
-
-### 📝 Project Submitted / Project Details
-<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/205050e2-9510-4819-83fd-89cabc4aba81" />
-
-### 📊 Live Metrics (Admin)
-<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/ae2096f9-8942-42a9-befa-2fd9f110edac" />
-
-
-### 👥 Registered Users (Admin)
-<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/b6ddcd6c-a249-4330-8565-de89276889d7" />
-
-
-### 💬 Feedback Messages (Admin)
-<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/c27380d3-4fee-4285-ae44-92871feea212" />
-
+### 💬 Feedback (Admin) & More
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c27380d3-4fee-4285-ae44-92871feea212" width="30%">
+</p>
 
 ---
 ## 🔮 Future Improvements

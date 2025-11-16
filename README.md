@@ -62,58 +62,8 @@ Built for the **Execute Event Hackathon (Theme: Collaborative Projects)**.
 ---
 
 ## 📂 Folder Structure
+<img width="207" height="765" alt="image" src="https://github.com/user-attachments/assets/5d724c43-e7a1-4e6d-9a87-6a72706f2824" />
 
-
-lib/
-│
-├── db/
-│   └── db_helper.dart
-│
-├── models/
-│   ├── user_model.dart
-│   ├── project_model.dart
-│   ├── message_model.dart
-│
-├── providers/
-│   └── project_provider.dart
-│
-├── screens/
-│   ├── admin/
-│   │   ├── admin_dashboard.dart
-│   │   ├── admin_live_metrics.dart
-│   │   ├── admin_project_details.dart
-│   │   ├── admin_projects_screen.dart
-│   │   ├── admin_users_screen.dart
-│   │   └── admin_feedback_screen.dart
-│   │
-│   ├── auth/
-│   │   ├── login_screen.dart
-│   │   ├── register_screen.dart
-│   │   └── admin_login_screen.dart
-│   │
-│   ├── add_edit_project_screen.dart
-│   ├── collaboration_screen.dart
-│   ├── explore_projects_screen.dart
-│   ├── main_wrapper.dart
-│   ├── my_projects_screen.dart
-│   ├── profile_screen.dart
-│   ├── project_details_screen.dart
-│   ├── project_search_filter.dart
-│   ├── user_home_screen.dart
-│   └── splash_screen.dart
-│
-├── services/
-│   └── notification_service.dart
-│
-├── utils/
-│   └── fade_route.dart
-│
-├── widgets/
-│   ├── project_card.dart
-│   └── user_avatar.dart
-│
-├── main.dart
-└── app_router.dart
 
 
 ---

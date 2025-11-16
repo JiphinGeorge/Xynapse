@@ -98,14 +98,46 @@ class _AdminProjectDetailsScreenState extends State<AdminProjectDetailsScreen> {
 
                   const SizedBox(height: 8),
 
-                  // CREATOR
+                  // CREATOR WITH AVATAR
                   Row(
                     children: [
-                      const Icon(Icons.person, color: Colors.amberAccent),
-                      const SizedBox(width: 8),
+                      CircleAvatar(
+                        radius: 20,
+                        backgroundColor: Colors.amberAccent.withValues(
+                          alpha: 0.25,
+                        ),
+
+                        backgroundImage:
+                            (creator!.profileImage != null &&
+                                creator!.profileImage!.isNotEmpty &&
+                                File(creator!.profileImage!).existsSync())
+                            ? FileImage(File(creator!.profileImage!))
+                            : null,
+
+                        child:
+                            (creator!.profileImage == null ||
+                                creator!.profileImage!.isEmpty ||
+                                !File(creator!.profileImage!).existsSync())
+                            ? Text(
+                                creator!.name[0].toUpperCase(),
+                                style: const TextStyle(
+                                  color: Colors.amber,
+                                  fontSize: 18,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              )
+                            : null,
+                      ),
+
+                      const SizedBox(width: 10),
+
                       Text(
                         "By ${creator!.name}",
-                        style: GoogleFonts.inter(color: Colors.white70),
+                        style: GoogleFonts.inter(
+                          color: Colors.white70,
+                          fontSize: 16,
+                          fontWeight: FontWeight.w500,
+                        ),
                       ),
                     ],
                   ),
@@ -173,8 +205,8 @@ class _AdminProjectDetailsScreenState extends State<AdminProjectDetailsScreen> {
                                 (c) => ListTile(
                                   leading: CircleAvatar(
                                     radius: 22,
-                                    backgroundColor: Colors.amber.withOpacity(
-                                      0.25,
+                                    backgroundColor: Colors.amber.withValues(
+                                      alpha: 0.25,
                                     ),
                                     backgroundImage:
                                         (c.profileImage != null &&

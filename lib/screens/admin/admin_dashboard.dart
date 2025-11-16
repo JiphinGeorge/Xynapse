@@ -140,7 +140,7 @@ class _AdminDashboardState extends State<AdminDashboard>
               radius: 18,
               backgroundColor: Colors.amberAccent.withValues(alpha:  0.3),
               child: const Icon(
-                Icons.admin_panel_settings_rounded,
+                Icons.workspace_premium_rounded,
                 color: Colors.amberAccent,
                 size: 22,
               ),

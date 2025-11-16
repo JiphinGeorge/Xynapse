@@ -164,11 +164,12 @@ lib/
 ```bash
 git clone https://github.com/JiphinGeorge/Xynapse-A-Collaboration-Platform_Hackathon.git
 cd Xynapse-A-Collaboration-Platform_Hackathon
+```
+### **2. Install dependencies**
 
-2. Install dependencies
 flutter pub get
 
-3. Run the app
+### **3. Run the app**
 flutter run
 
 -----
